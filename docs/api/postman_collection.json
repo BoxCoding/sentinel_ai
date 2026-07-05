@@ -1,0 +1,69 @@
+{
+  "info": {
+    "name": "Sentinel AI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base", "value": "http://localhost:8000/api/v1" },
+    { "key": "token", "value": "" }
+  ],
+  "auth": { "type": "bearer", "bearer": [{ "key": "token", "value": "{{token}}" }] },
+  "item": [
+    {
+      "name": "Login (commander)",
+      "event": [{
+        "listen": "test",
+        "script": { "exec": ["pm.collectionVariables.set('token', pm.response.json().access_token);"], "type": "text/javascript" }
+      }],
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/auth/login",
+        "body": { "mode": "raw", "raw": "{\"username\":\"commander\",\"password\":\"command123\"}", "options": { "raw": { "language": "json" } } }
+      }
+    },
+    { "name": "Dashboard summary", "request": { "method": "GET", "url": "{{base}}/dashboard/summary" } },
+    { "name": "Map layers", "request": { "method": "GET", "url": "{{base}}/dashboard/map" } },
+    {
+      "name": "Predict flood (XAI)",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/predictions/flood",
+        "body": { "mode": "raw", "raw": "{\"rain_6h_mm\":95,\"river_level_m\":4.2,\"drainage_capacity\":35,\"soil_saturation\":0.9,\"elevation_m\":8}", "options": { "raw": { "language": "json" } } }
+      }
+    },
+    { "name": "Run decision cycle", "request": { "method": "POST", "url": "{{base}}/agents/decision-cycle" } },
+    {
+      "name": "Chat (RAG)",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/chat",
+        "body": { "mode": "raw", "raw": "{\"message\":\"What is the flood SOP activation protocol?\"}", "options": { "raw": { "language": "json" } } }
+      }
+    },
+    {
+      "name": "Create incident",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/incidents",
+        "body": { "mode": "raw", "raw": "{\"type\":\"flood\",\"description\":\"Street flooding\",\"district\":\"Riverside\",\"lat\":12.945,\"lng\":77.575}", "options": { "raw": { "language": "json" } } }
+      }
+    },
+    {
+      "name": "Voice report (multipart)",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/incidents/report/voice",
+        "body": { "mode": "formdata", "formdata": [{ "key": "file", "type": "file", "src": "" }] }
+      }
+    },
+    { "name": "Decisions", "request": { "method": "GET", "url": "{{base}}/decisions" } },
+    {
+      "name": "Emergency route",
+      "request": {
+        "method": "POST",
+        "url": "{{base}}/routes/emergency",
+        "body": { "mode": "raw", "raw": "{\"origin_lat\":12.975,\"origin_lng\":77.598,\"dest_lat\":12.945,\"dest_lng\":77.575,\"avoid_flooded\":true}", "options": { "raw": { "language": "json" } } }
+      }
+    }
+  ]
+}

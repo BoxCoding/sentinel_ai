@@ -1,0 +1,37 @@
+call_id,type,district,city,lat,lng,description,injuries,trapped,spreading,vulnerable,received_at
+CALL-1000,accident,Indiranagar,Bengaluru,12.96784,77.64353,"Two-vehicle collision, injuries reported",3,1,0,1,2026-07-05T10:42:37.046607+00:00
+CALL-1001,medical,Koramangala,Bengaluru,12.94064,77.62756,"Chest pain reported, patient conscious",0,0,0,1,2026-07-05T09:53:37.046607+00:00
+CALL-1002,accident,Gurugram,Delhi NCR,28.46384,77.03285,"Two-vehicle collision, injuries reported",2,0,0,1,2026-07-05T11:15:37.046607+00:00
+CALL-1003,flood,Colaba,Mumbai,18.91369,72.82973,"Street waterlogged, vehicles stranded",1,0,1,1,2026-07-05T11:08:37.046607+00:00
+CALL-1004,flood,Gurugram,Delhi NCR,28.44635,77.00972,"Street waterlogged, vehicles stranded",1,0,0,1,2026-07-05T06:36:37.046607+00:00
+CALL-1005,flood,Colaba,Mumbai,18.89893,72.80155,"Street waterlogged, vehicles stranded",2,0,1,0,2026-07-05T07:33:37.046607+00:00
+CALL-1006,accident,Bandra,Mumbai,19.05334,72.83235,"Two-vehicle collision, injuries reported",1,0,0,0,2026-07-05T06:02:37.046607+00:00
+CALL-1007,fire,Noida,Delhi NCR,28.5239,77.38732,"Smoke visible from building, possible structure fire",0,0,1,0,2026-07-05T09:52:37.046607+00:00
+CALL-1008,accident,Andheri,Mumbai,19.1021,72.84126,"Two-vehicle collision, injuries reported",0,0,0,0,2026-07-05T09:07:37.046607+00:00
+CALL-1009,fire,Kurla,Mumbai,19.06538,72.86962,"Smoke visible from building, possible structure fire",0,1,0,1,2026-07-05T10:53:37.046607+00:00
+CALL-1010,medical,Indiranagar,Bengaluru,12.97834,77.64562,"Chest pain reported, patient conscious",0,0,0,0,2026-07-05T10:36:37.046607+00:00
+CALL-1011,flood,Indiranagar,Bengaluru,12.96173,77.6401,"Street waterlogged, vehicles stranded",0,0,1,0,2026-07-05T10:15:37.046607+00:00
+CALL-1012,accident,Kurla,Mumbai,19.06803,72.85809,"Two-vehicle collision, injuries reported",0,0,0,0,2026-07-05T06:26:37.046607+00:00
+CALL-1013,medical,Yamuna Bank,Delhi NCR,28.62157,77.2825,"Chest pain reported, patient conscious",1,0,0,0,2026-07-05T09:47:37.046607+00:00
+CALL-1014,flood,Gurugram,Delhi NCR,28.47205,77.03431,"Street waterlogged, vehicles stranded",2,0,1,0,2026-07-05T07:04:37.046607+00:00
+CALL-1015,accident,Yamuna Bank,Delhi NCR,28.62745,77.27253,"Two-vehicle collision, injuries reported",1,0,0,0,2026-07-05T07:04:37.046607+00:00
+CALL-1016,fire,Hebbal,Bengaluru,13.02693,77.59647,"Smoke visible from building, possible structure fire",2,0,0,0,2026-07-05T08:06:37.046607+00:00
+CALL-1017,medical,Colaba,Mumbai,18.91378,72.80854,"Chest pain reported, patient conscious",0,1,0,0,2026-07-05T07:07:37.046607+00:00
+CALL-1018,medical,Noida,Delhi NCR,28.53069,77.39253,"Chest pain reported, patient conscious",1,0,0,1,2026-07-05T10:19:37.046607+00:00
+CALL-1019,accident,Noida,Delhi NCR,28.52714,77.39355,"Two-vehicle collision, injuries reported",0,0,0,0,2026-07-05T10:58:37.046607+00:00
+CALL-1020,fire,Koramangala,Bengaluru,12.94739,77.62657,"Smoke visible from building, possible structure fire",1,0,1,1,2026-07-05T11:02:37.046607+00:00
+CALL-1021,medical,Hebbal,Bengaluru,13.04763,77.60468,"Chest pain reported, patient conscious",2,0,0,0,2026-07-05T08:22:37.046607+00:00
+CALL-1022,flood,Whitefield,Bengaluru,12.96741,77.74968,"Street waterlogged, vehicles stranded",1,0,0,1,2026-07-05T09:41:37.046607+00:00
+CALL-1023,medical,Colaba,Mumbai,18.9098,72.79913,"Chest pain reported, patient conscious",0,0,0,1,2026-07-05T10:42:37.046607+00:00
+CALL-1024,flood,Bandra,Mumbai,19.05663,72.82407,"Street waterlogged, vehicles stranded",0,0,1,1,2026-07-05T08:24:37.046607+00:00
+CALL-1025,fire,Indiranagar,Bengaluru,12.97049,77.63199,"Smoke visible from building, possible structure fire",3,0,1,1,2026-07-05T06:06:37.046607+00:00
+CALL-1026,accident,Whitefield,Bengaluru,12.96709,77.7396,"Two-vehicle collision, injuries reported",0,0,0,1,2026-07-05T10:23:37.046607+00:00
+CALL-1027,flood,Yamuna Bank,Delhi NCR,28.60913,77.26673,"Street waterlogged, vehicles stranded",1,0,0,0,2026-07-05T10:50:37.046607+00:00
+CALL-1028,other,Dwarka,Delhi NCR,28.59854,77.04971,Public disturbance reported,1,0,0,1,2026-07-05T08:47:37.046607+00:00
+CALL-1029,flood,Andheri,Mumbai,19.11069,72.8671,"Street waterlogged, vehicles stranded",0,0,0,0,2026-07-05T06:46:37.046607+00:00
+CALL-1030,accident,Kurla,Mumbai,19.07287,72.86899,"Two-vehicle collision, injuries reported",1,0,0,1,2026-07-05T08:15:37.046607+00:00
+CALL-1031,fire,Gurugram,Delhi NCR,28.45521,77.01998,"Smoke visible from building, possible structure fire",1,0,0,1,2026-07-05T07:36:37.046607+00:00
+CALL-1032,fire,Indiranagar,Bengaluru,12.9667,77.63338,"Smoke visible from building, possible structure fire",1,0,0,0,2026-07-05T06:53:37.046607+00:00
+CALL-1033,flood,Bandra,Mumbai,19.0643,72.82826,"Street waterlogged, vehicles stranded",1,0,0,0,2026-07-05T08:57:37.046607+00:00
+CALL-1034,medical,Noida,Delhi NCR,28.53519,77.37722,"Chest pain reported, patient conscious",1,0,0,1,2026-07-05T06:26:37.046607+00:00
+CALL-1035,fire,Indiranagar,Bengaluru,12.9597,77.6325,"Smoke visible from building, possible structure fire",2,0,1,0,2026-07-05T06:14:37.046607+00:00

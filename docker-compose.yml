@@ -1,0 +1,33 @@
+# Local full-stack demo: backend (demo mode) + frontend + Postgres (AlloyDB stand-in)
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: sentinel
+      POSTGRES_PASSWORD: sentinel
+      POSTGRES_DB: sentinel
+    ports: ["5432:5432"]
+    volumes:
+      - ./backend/app/db/alloydb_schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      - pgdata:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    environment:
+      DEMO_MODE: "true"
+      ALLOYDB_URI: postgresql+asyncpg://sentinel:sentinel@db:5432/sentinel
+      PORT: "8000"
+    ports: ["8000:8000"]
+    volumes:
+      - ./data:/data
+    depends_on: [db]
+
+  frontend:
+    build: ./frontend
+    environment:
+      BACKEND_URL: http://backend:8000
+    ports: ["3000:3000"]
+    depends_on: [backend]
+
+volumes:
+  pgdata:

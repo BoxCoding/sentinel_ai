@@ -1,0 +1,45 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 992 >>
+stream
+BT /F1 11 Tf 50 780 Td 14 TL
+(FLOOD RESPONSE SOP) Tj T*
+() Tj T*
+(FLOOD RESPONSE STANDARD OPERATING PROCEDURE ? City Disaster Management Authority.) Tj T*
+(Activation levels: Level 1 \(advisory\) when 6-hour rainfall exceeds 50mm. Level 2 \(alert\)) Tj T*
+(when rainfall exceeds 80mm or river gauge reaches 4.0m. Level 3 \(emergency\) when river) Tj T*
+(gauge exceeds 4.5m danger mark or flooding is reported in 3+ wards. At Level 2: pre-) Tj T*
+(position rescue boats at Yamuna Bank, Kurla and Bellandur stations, open designated) Tj T*
+(shelters, and issue push advisories to low-lying districts \(Yamuna Bank, Kurla, Andheri,) Tj T*
+(Bellandur, Gurugram sector roads\). At Level 3: activate the Emergency Operations Center,) Tj T*
+(deploy NDRF liaison, suspend traffic on Minto Bridge Underpass and Andheri Subway, and) Tj T*
+(begin evacuation of ground-floor residences in flood zone A. Hospitals must shift ground-) Tj T*
+(floor patients and verify generator fuel for 72 hours.) Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001284 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1354
+%%EOF

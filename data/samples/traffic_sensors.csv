@@ -1,0 +1,13 @@
+road,district,city,congestion_index,avg_speed_kmh,vehicle_count_15m
+NH-48 Delhi-Gurugram,Gurugram,Delhi NCR,0.75,14.9,234
+Ring Road,Connaught Place,Delhi NCR,0.94,3.9,384
+DND Flyway,Noida,Delhi NCR,0.41,35.7,306
+Dwarka Expressway,Dwarka,Delhi NCR,0.43,34.2,1178
+Western Express Highway,Andheri,Mumbai,0.81,11.6,1086
+Eastern Express Highway,Kurla,Mumbai,0.51,29.4,1084
+SV Road,Bandra,Mumbai,0.45,32.8,1011
+Marine Drive,Colaba,Mumbai,0.56,26.6,557
+Outer Ring Road,Bellandur,Bengaluru,0.77,13.6,880
+Old Airport Road,Indiranagar,Bengaluru,0.27,43.6,1113
+Hosur Road,Koramangala,Bengaluru,0.4,36.0,262
+Bellary Road,Hebbal,Bengaluru,0.58,25.0,661

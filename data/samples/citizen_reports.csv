@@ -1,0 +1,61 @@
+report_id,district,city,channel,text,reported_at
+CR-2000,Dadar,Mumbai,app,Loud crash heard on Dadar main road,2026-07-05T06:13:37.052380+00:00
+CR-2001,Kurla,Mumbai,sms,Smoke smell in Kurla,2026-07-05T07:09:37.052440+00:00
+CR-2002,Yamuna Bank,Delhi NCR,social,Tree fallen in Yamuna Bank,2026-07-05T06:55:37.052500+00:00
+CR-2003,Dwarka,Delhi NCR,social,Traffic signal down in Dwarka,2026-07-05T00:01:37.052539+00:00
+CR-2004,Yamuna Bank,Delhi NCR,sms,Tree fallen in Yamuna Bank,2026-07-05T06:51:37.052576+00:00
+CR-2005,Colaba,Mumbai,app,Loud crash heard on Colaba main road,2026-07-05T00:47:37.052612+00:00
+CR-2006,Yamuna Bank,Delhi NCR,social,Tree fallen in Yamuna Bank,2026-07-05T03:10:37.052647+00:00
+CR-2007,Gurugram,Delhi NCR,app,Loud crash heard on Gurugram main road,2026-07-05T00:59:37.052682+00:00
+CR-2008,Dwarka,Delhi NCR,app,Smoke smell in Dwarka,2026-07-05T05:27:37.052715+00:00
+CR-2009,Gurugram,Delhi NCR,app,Tree fallen in Gurugram,2026-07-05T06:20:37.052750+00:00
+CR-2010,Yamuna Bank,Delhi NCR,sms,Smoke smell in Yamuna Bank,2026-07-05T01:27:37.052783+00:00
+CR-2011,Noida,Delhi NCR,social,Tree fallen in Noida,2026-07-05T02:10:37.052817+00:00
+CR-2012,Koramangala,Bengaluru,social,Tree fallen in Koramangala,2026-07-05T06:54:37.052851+00:00
+CR-2013,Dadar,Mumbai,social,Loud crash heard on Dadar main road,2026-07-05T08:58:37.052889+00:00
+CR-2014,Andheri,Mumbai,app,Smoke smell in Andheri,2026-07-05T02:55:37.052923+00:00
+CR-2015,Indiranagar,Bengaluru,sms,Smoke smell in Indiranagar,2026-07-05T10:42:37.052956+00:00
+CR-2016,Noida,Delhi NCR,sms,Smoke smell in Noida,2026-07-05T01:35:37.052990+00:00
+CR-2017,Andheri,Mumbai,social,Loud crash heard on Andheri main road,2026-07-05T10:38:37.053038+00:00
+CR-2018,Noida,Delhi NCR,sms,Smoke smell in Noida,2026-07-05T08:26:37.053072+00:00
+CR-2019,Colaba,Mumbai,social,Loud crash heard on Colaba main road,2026-07-05T06:52:37.053105+00:00
+CR-2020,Yamuna Bank,Delhi NCR,social,Tree fallen in Yamuna Bank,2026-07-05T08:17:37.053146+00:00
+CR-2021,Yamuna Bank,Delhi NCR,social,Water entering ground floor near Yamuna Bank,2026-07-05T05:05:37.053182+00:00
+CR-2022,Bellandur,Bengaluru,social,Water entering ground floor near Bellandur,2026-07-05T08:56:37.053228+00:00
+CR-2023,Gurugram,Delhi NCR,sms,Loud crash heard on Gurugram main road,2026-07-05T07:55:37.053262+00:00
+CR-2024,Indiranagar,Bengaluru,app,Loud crash heard on Indiranagar main road,2026-07-05T08:18:37.053303+00:00
+CR-2025,Colaba,Mumbai,app,Traffic signal down in Colaba,2026-07-05T06:18:37.053337+00:00
+CR-2026,Hebbal,Bengaluru,sms,Loud crash heard on Hebbal main road,2026-07-05T02:52:37.053375+00:00
+CR-2027,Indiranagar,Bengaluru,app,Water entering ground floor near Indiranagar,2026-07-05T09:44:37.053408+00:00
+CR-2028,Connaught Place,Delhi NCR,app,Traffic signal down in Connaught Place,2026-07-05T02:10:37.053460+00:00
+CR-2029,Colaba,Mumbai,social,Traffic signal down in Colaba,2026-07-05T00:19:37.053505+00:00
+CR-2030,Yamuna Bank,Delhi NCR,social,Smoke smell in Yamuna Bank,2026-07-05T03:56:37.053538+00:00
+CR-2031,Indiranagar,Bengaluru,sms,Loud crash heard on Indiranagar main road,2026-07-05T02:23:37.053579+00:00
+CR-2032,Connaught Place,Delhi NCR,social,Loud crash heard on Connaught Place main road,2026-07-05T08:18:37.053612+00:00
+CR-2033,Bellandur,Bengaluru,social,Water entering ground floor near Bellandur,2026-07-05T05:31:37.053653+00:00
+CR-2034,Gurugram,Delhi NCR,app,Loud crash heard on Gurugram main road,2026-07-05T06:05:37.053686+00:00
+CR-2035,Dwarka,Delhi NCR,social,Smoke smell in Dwarka,2026-07-05T09:45:37.053727+00:00
+CR-2036,Indiranagar,Bengaluru,app,Loud crash heard on Indiranagar main road,2026-07-05T09:18:37.053759+00:00
+CR-2037,Hebbal,Bengaluru,app,Tree fallen in Hebbal,2026-07-04T23:51:37.053789+00:00
+CR-2038,Dwarka,Delhi NCR,app,Water entering ground floor near Dwarka,2026-07-05T09:10:37.053819+00:00
+CR-2039,Bandra,Mumbai,app,Tree fallen in Bandra,2026-07-05T05:41:37.053848+00:00
+CR-2040,Indiranagar,Bengaluru,app,Water entering ground floor near Indiranagar,2026-07-05T05:53:37.053877+00:00
+CR-2041,Noida,Delhi NCR,app,Water entering ground floor near Noida,2026-07-05T08:09:37.053906+00:00
+CR-2042,Whitefield,Bengaluru,sms,Smoke smell in Whitefield,2026-07-05T09:10:37.053936+00:00
+CR-2043,Bandra,Mumbai,social,Water entering ground floor near Bandra,2026-07-05T06:30:37.053965+00:00
+CR-2044,Indiranagar,Bengaluru,social,Smoke smell in Indiranagar,2026-07-05T01:35:37.053994+00:00
+CR-2045,Koramangala,Bengaluru,app,Traffic signal down in Koramangala,2026-07-05T00:18:37.054024+00:00
+CR-2046,Dwarka,Delhi NCR,sms,Smoke smell in Dwarka,2026-07-05T03:22:37.054065+00:00
+CR-2047,Yamuna Bank,Delhi NCR,app,Water entering ground floor near Yamuna Bank,2026-07-05T03:26:37.054094+00:00
+CR-2048,Hebbal,Bengaluru,social,Loud crash heard on Hebbal main road,2026-07-05T02:07:37.054139+00:00
+CR-2049,Hebbal,Bengaluru,app,Water entering ground floor near Hebbal,2026-07-04T23:57:37.054174+00:00
+CR-2050,Connaught Place,Delhi NCR,sms,Water entering ground floor near Connaught Place,2026-07-05T10:00:37.054204+00:00
+CR-2051,Yamuna Bank,Delhi NCR,app,Loud crash heard on Yamuna Bank main road,2026-07-05T10:59:37.054234+00:00
+CR-2052,Indiranagar,Bengaluru,sms,Traffic signal down in Indiranagar,2026-07-05T00:25:37.054271+00:00
+CR-2053,Hebbal,Bengaluru,sms,Loud crash heard on Hebbal main road,2026-07-05T04:03:37.054301+00:00
+CR-2054,Whitefield,Bengaluru,social,Traffic signal down in Whitefield,2026-07-05T03:15:37.054331+00:00
+CR-2055,Colaba,Mumbai,social,Water entering ground floor near Colaba,2026-07-04T23:58:37.054364+00:00
+CR-2056,Bellandur,Bengaluru,social,Traffic signal down in Bellandur,2026-07-05T07:21:37.054394+00:00
+CR-2057,Colaba,Mumbai,social,Loud crash heard on Colaba main road,2026-07-05T11:09:37.054439+00:00
+CR-2058,Colaba,Mumbai,sms,Loud crash heard on Colaba main road,2026-07-05T03:04:37.054468+00:00
+CR-2059,Kurla,Mumbai,social,Traffic signal down in Kurla,2026-07-05T01:10:37.054497+00:00
