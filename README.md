@@ -10,6 +10,10 @@ and audited.
 
 Built for the Google Cloud GenAI Hackathon.
 
+## Demo Video
+
+`<paste your recorded video link here — script in docs/demo_video_script.md>`
+
 ## Quick start (zero cloud credentials needed)
 
 ```bash
