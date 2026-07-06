@@ -5,8 +5,8 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends gcc g++ \
     && rm -rf /var/lib/apt/lists/*
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY requirements.txt requirements-gcp.txt ./
+RUN pip install --no-cache-dir -r requirements.txt -r requirements-gcp.txt
 
 COPY app ./app
 COPY pytest.ini .

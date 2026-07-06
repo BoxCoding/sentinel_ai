@@ -16,8 +16,14 @@ from app.core.logging import get_logger
 from app.ml import synthetic
 
 log = get_logger(__name__)
-MODEL_DIR = Path(__file__).resolve().parent / ".model_cache"
-MODEL_DIR.mkdir(exist_ok=True)
+try:
+    MODEL_DIR = Path(__file__).resolve().parent / ".model_cache"
+    MODEL_DIR.mkdir(exist_ok=True)
+except OSError:  # read-only filesystem (serverless) -> cache in /tmp
+    import tempfile
+
+    MODEL_DIR = Path(tempfile.gettempdir()) / "sentinel_model_cache"
+    MODEL_DIR.mkdir(exist_ok=True)
 
 
 class PredictionEngine:

@@ -10,7 +10,12 @@ from app.core.logging import get_logger
 
 log = get_logger(__name__)
 
-DEMO_DATA_DIR = Path(__file__).resolve().parents[3] / "data" / "samples"
+# repo layout first (data/samples, regenerable); bundled copy second
+# (backend/demo_data, shipped in serverless deployments where ../data
+# is outside the service root)
+_REPO_DATA = Path(__file__).resolve().parents[3] / "data" / "samples"
+_BUNDLED_DATA = Path(__file__).resolve().parents[2] / "demo_data"
+DEMO_DATA_DIR = _REPO_DATA if _REPO_DATA.exists() else _BUNDLED_DATA
 
 
 class BigQueryService:
@@ -47,9 +52,11 @@ class BigQueryService:
 
     def insert_rows(self, table: str, rows: list[dict]) -> None:
         if settings.DEMO_MODE:
-            path = DEMO_DATA_DIR / f"{table}.csv"
-            df = pd.DataFrame(rows)
-            df.to_csv(path, mode="a", header=not path.exists(), index=False)
+            try:
+                path = DEMO_DATA_DIR / f"{table}.csv"
+                pd.DataFrame(rows).to_csv(path, mode="a", header=not path.exists(), index=False)
+            except OSError:  # read-only filesystem (serverless) — skip append
+                log.warning("demo_insert_skipped_readonly", table=table)
             return
         errors = self._bq().insert_rows_json(
             f"{settings.GCP_PROJECT_ID}.{settings.BQ_DATASET}.{table}", rows

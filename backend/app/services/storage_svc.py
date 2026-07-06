@@ -22,9 +22,16 @@ class StorageService:
                content_type: str = "application/octet-stream") -> str:
         bucket = bucket or settings.GCS_BUCKET
         if settings.DEMO_MODE:
-            local = DEMO_STORAGE / bucket / path
-            local.parent.mkdir(parents=True, exist_ok=True)
-            local.write_bytes(data)
+            try:
+                local = DEMO_STORAGE / bucket / path
+                local.parent.mkdir(parents=True, exist_ok=True)
+                local.write_bytes(data)
+            except OSError:  # read-only filesystem (serverless) -> /tmp
+                import tempfile
+
+                local = Path(tempfile.gettempdir()) / "sentinel_storage" / bucket / path
+                local.parent.mkdir(parents=True, exist_ok=True)
+                local.write_bytes(data)
             return f"gs://{bucket}/{path}"
         blob = self._gcs().bucket(bucket).blob(path)
         blob.upload_from_string(data, content_type=content_type)

@@ -1,0 +1,9 @@
+tests/
+.model_cache/
+.demo_storage/
+.pytest_cache/
+__pycache__/
+requirements-gcp.txt
+requirements-demo.txt
+Dockerfile
+.env

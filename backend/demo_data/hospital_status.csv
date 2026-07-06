@@ -1,0 +1,8 @@
+hospital,city,district,lat,lng,total_beds,occupancy,icu_beds_free,doctors_on_duty,medicine_stock_days,ambulances_available
+AIIMS Delhi,Delhi NCR,Connaught Place,28.5672,77.21,800,0.87,11,53,10.5,8
+Medanta Gurugram,Delhi NCR,Gurugram,28.439,77.041,550,0.71,13,29,6.5,9
+Fortis Noida,Delhi NCR,Noida,28.567,77.325,300,0.6,2,14,12.9,1
+Lilavati Mumbai,Mumbai,Bandra,19.051,72.828,320,0.76,8,20,7.5,2
+KEM Mumbai,Mumbai,Dadar,19.003,72.841,450,0.9,6,23,13.5,6
+Manipal Bengaluru,Bengaluru,Indiranagar,12.959,77.648,600,0.67,3,39,3.8,6
+St. John's Bengaluru,Bengaluru,Koramangala,12.93,77.619,350,0.85,10,24,11.7,4
