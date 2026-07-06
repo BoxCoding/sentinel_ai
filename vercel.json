@@ -7,8 +7,7 @@
     },
     "backend": {
       "root": "backend",
-      "framework": "fastapi",
-      "routes": [{ "path": "/api/backend" }]
+      "framework": "fastapi"
     }
   }
 }
